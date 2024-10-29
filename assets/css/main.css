@@ -1144,7 +1144,7 @@ input, select, textarea {
 			-webkit-transition-delay: 0.75s;
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
-			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
+			background-image: linear-gradient(to top, rgba(0, 2, 5, 0.5), rgba(0, 2, 7, 0.5)), url("../../images/overlay.png");
 			background-size: auto,
  256px 256px;
 			background-position: center,
@@ -1163,9 +1163,9 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("../../images/bg5.jpg");
+			background-image: url("../../images/bg1.jpg");
 			background-position: center;
-			background-size: cover;
+			background-size: 72% 100%;
 			background-repeat: no-repeat;
 			z-index: 1;
 		}
@@ -1182,7 +1182,7 @@ input, select, textarea {
 		}
 
 		body.is-preload #bg:before {
-			background-color: #000000;
+			background-color: #070707c9;
 		}
 
 /* Wrapper */
@@ -1300,10 +1300,10 @@ input, select, textarea {
 			height: 5.5rem;
 			line-height: 5.5rem;
 			border: solid 1px #ffffff;
-			border-radius: 100%;
+			border-radius: 90%;
 			background-image: url("images/logo.png");
 			/* Replace with the path to your logo */
-			background-size: contain;
+			background-size: cover;
 			background-repeat: no-repeat;
 			background-position: center;
 		}
